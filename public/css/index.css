@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.submit {
+  height: 3rem;
+  border-radius: 1rem;
+  color: grey;
+}
+.prompt {
+  height: 3rem;
+  width: 20rem;
+  border-radius: 1rem;
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  border-radius: 1rem;
+}
