@@ -1,4 +1,9 @@
 {
+  "name": "AI Image Generator",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
     "start": "node app.js"
   },
