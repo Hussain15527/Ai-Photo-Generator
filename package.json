@@ -1,5 +1,5 @@
 {
-  "name": "AI Image Generator",
+  "name": "ai-image-generator",
   "version": "1.0.0",
   "engines": {
     "node": ">=16"
