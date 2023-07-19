@@ -11,17 +11,22 @@
 
     <div class="container">
       <div class="form">
-        <form action="/" method="POST">
+        <form action="/upload" method="POST">
           <input
             type="text"
             placeholder="Enter the prompt"
             class="prompt"
             name="pr"
           />
+          <input
+            type="text"
+            placeholder="Image link"
+            class="prompt"
+            name="link"
+          />
           <button type="submit" class="submit">Get the image</button>
         </form>
       </div>
-      <button class="submit"><a href="/upload">upload</a></button>
       <img src="<%=src %>" alt="" srcset="" class="image" />
     </div>
   </body>
