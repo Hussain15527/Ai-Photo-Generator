@@ -2,9 +2,11 @@ const express = require("express");
 const app = express();
 const ejs = require("ejs");
 const bodyParser = require("body-parser");
+const path=require('path');
 const { middleWare } = require("./logic");
 const { middleWare2 } = require("./upload");
 app.set("view engine", "ejs");
+app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
